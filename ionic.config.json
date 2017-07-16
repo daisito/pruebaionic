@@ -1,5 +1,9 @@
 {
   "name": "pruebaionic",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "proxies": [{
+    "path": "/deezerAPI",
+    "proxyUrl": "http://api.deezer.com/"
+  }]
 }
