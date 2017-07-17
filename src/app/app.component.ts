@@ -20,10 +20,10 @@ export class MyApp {
     
     this.rootPage = InicioPage;
     this.pages = [
-      {titulo : 'Inicio',     component: InicioPage, icon : 'home'},
-      {titulo : 'Perfiles',   component: PerfilesPage, icon : 'person'},
-      {titulo : 'Contacto',   component: ContactoPage, icon : 'mail'},
-      {titulo : 'Acerca de',  component: AcercaPage, icon : 'information-circle'}
+      {titulo : 'Inicio',     component: InicioPage,    icon : 'home'},
+      {titulo : 'Perfiles',   component: PerfilesPage,  icon : 'person'},
+      {titulo : 'Contacto',   component: ContactoPage,  icon : 'mail'},
+      {titulo : 'Acerca de',  component: AcercaPage,    icon : 'information-circle'}
     ];
     
     platform.ready().then(() => {
