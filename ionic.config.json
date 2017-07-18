@@ -1,9 +1,10 @@
 {
   "name": "pruebaionic",
   "app_id": "",
-  "type": "ionic-angular",
-  "proxies": [{
-    "path": "/deezerAPI",
-    "proxyUrl": "http://api.deezer.com/"
-  }]
+  "type": "ionic-angular"
+  // ,
+  // "proxies": [{
+  //   "path": "/deezerAPI",
+  //   "proxyUrl": "http://api.deezer.com/"
+  // }]
 }
